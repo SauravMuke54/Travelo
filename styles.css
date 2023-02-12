@@ -1,0 +1,207 @@
+li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.nav-items{
+  
+    float: right;
+}
+
+ .nav-item-elements:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.web_name{
+    text-shadow: 2px 2px blue;
+    font-weight: 800;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.navbar{
+    border-radius: 5px;
+}
+
+.book-btn{
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin: 6px;
+    color: black;
+    background-color: white;
+    width: 100px;
+    border-color: aliceblue;
+    
+
+
+
+}
+
+
+.explore{
+    margin-top: 120px;
+    width: 300px;
+    height: 50px;
+    background-color: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:white;
+   
+    border-radius: 10px;
+    color: black;
+}
+
+.explore:hover{
+    margin-top: 120px;
+    width: 300px;
+    height: 50px;
+    background-color: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0366b6;
+   
+    border-radius: 10px;
+    color:white;
+}
+.bookdest{
+
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    padding: 40px;
+
+}
+.search{
+    background-color:rgb(5, 214, 5);
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    border-color: white;
+    margin-left: 10px;
+
+}
+.search-items{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.search-date{
+    width: 200px;
+    height: 32px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.search-category{
+    width: 200px;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.navbar{
+    resize: both;
+    overflow: hidden;
+    background-color:black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width*/
+    margin-right: 10px;
+}
+.main{
+    margin-top: 40px;
+}
+body{
+    margin: 0;
+}
+.h1{
+    margin-top: 0;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col{
+padding: 2px;
+border: 2px black dotted;
+padding: 12px;
+display: block;
+}
+td{
+    padding: 10px;
+}
+.col img{
+    border: 2px black double;
+    resize: both;
+}
+.checked{
+    color: orange;
+}
+.col span{
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+   .quote{
+      font-size: 25px;
+      margin-top: 500px;
+      padding: 10px;
+    }
+  }
+
+  .services{
+    margin-top: 0px;
+   background-image: url('./images/grey.jpg');
+    padding: 10px;
+  }
+  .col1{
+    width: 300px;
+    height: auto;
+    border: 2px black dotted;
+    align-items: center;
+    padding: 10px;
+  }
+
+
+  .testemonials{
+   background-image: url('./images/1.jpg');
+  }
+  .navigation{
+background-color: black;
+    color: white;
+    border-radius: 100px;
+  }
+  .test{
+    width: 400px;
+    height: 300px;
+    border: 2px black dotted;
+    padding: 10px;
+    background-color: aliceblue;
+  }
+  footer{
+    background-color: #333333;
+    padding: 10px;
+font-size: 20px;
+color: white;
+  }

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelo</title>
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .quote{
+            background-color: white;
+            align-self: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px white;
+            color: black;
+ 
+            
+            font-size: 60px;
+            align-items: center;
+            /* background-color: white; */
+            padding: 10px;
+            box-shadow: 5px 5px grey;
+        
+            
+        }
+        .center{
+            
+            padding: 60px;
+            
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+
+        <ul>
+            <img src="./images/airplane.png" alt="LOGO" class="logo" style="margin-left: 10px;"/> <li class="web_name">  Travelo</li>
+            <span class="nav-items">           
+             <li  class="nav-item-elements"><strong>Home</strong></li>
+            <li class="nav-item-elements"><strong>About</strong></li>
+            <li class="nav-item-elements"><strong>Destinations</strong></li>
+            <li class="nav-item-elements"><strong>Packages</strong></li>
+            <li class="nav-item-elements"><strong>Contact</strong></li>
+            <button class="book-btn"><strong> Book Now !</strong></button>
+        </span>
+
+      
+            
+            
+        </ul>
+    </div>
+    <div class="main">
+    <div  style="background-image: url('./images/travel.jpg');     ;background-size: 100% 100%;
+    width: 100%; height: 650px ; align-content: center; align-items: center; "  >
+       <center class="center">
+      
+       <span class="quote" >
+            Travel Across The World With No Limit
+        </span>
+ 
+        <button class="explore"><strong>Explore Now</strong></button>
+    </center>
+</div>
+<div class="bookdest">
+    <center>
+    <label>Where do you want to go?</label>
+    <input type="text" placeholder=" Destination Ex. Maldives" class="search-items">
+    <input type="date" placeholder=" Destination Ex. Maldives"  class="search-date">
+    <select name="category" id="category"  class="search-category" >
+        <option>Select Your Category</option>
+        <option value="Beaches">
+            
+            Beach
+        </option>
+        <option value="Mountains">
+            
+            Mountains
+        </option>
+        <option value="Desert">
+            
+            Desert
+        </option>
+
+        <option value="Cold Places">
+            
+            Cold Places.search-items{
+                width: 160px;
+                height: 30px;
+            }
+        </option>
+    </select>
+    <button class="search"> Search</button>
+</center>
+</div>
+
+<div style="background-image: url('./images/1.jpg'); background-repeat:no-repeat ; background-size: 100% 100%; ">
+    <center><br><br> <h3 class="h1">Popular Destinations</h3>
+        <p style="color: #333; font-size: 25px;">View our most visited places along with the location and its rating.</p></center>
+  <center> <div class="image-col">
+    <table>
+        <tr >
+            <td >
+                <div class="col">
+                    <img src="./images/tokyo.jpg" width="350px" height="250px">
+                    <center style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Tokyo</center>
+<br>
+                    <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span>(1000 Reviews)</span>
+<br>
+<span><b>Date:</b> 23 Feb 2023</span><br>
+<span><b>Duration:</b> 5 days</span><br>
+<span><b>From Rs:</b> 1,20,000  </span><br>
+
+                </div>   
+               
+               
+            </td>
+            <td >
+                <div class="col">
+                    <img src="./images/maldives.jpg" width="350px" height="250px">
+                    <center style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Maldives</center>
+<br>
+                    <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
+<span>(900 Reviews)</span>
+<br>
+<span><b>Date:</b> 23 Feb 2023</span><br>
+<span><b>Duration:</b> 5 days</span><br>
+<span><b>From Rs:</b> 1,20,000  </span><br>
+
+
+                </div>
+               
+               
+            </td>
+            
+            <td >
+                <div class="col">
+                    <img src="./images/nyk.jpg" width="350px" height="250px">
+                    <center style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">New York</center>
+<br>
+                    <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span>(666 Reviews)</span>
+
+<br>
+<span><b>Date:</b> 23 Feb 2023</span><br>
+<span><b>Duration:</b> 5 days</span><br>
+<span><b>From Rs:</b> 1,20,000  </span><br>
+
+                </div>
+               
+               
+            </td>
+            
+            <td >
+                <div class="col">
+                    <img src="./images/dubai.jpg" width="350px" height="250px">
+                    <center style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Dubai</center>
+<br>
+                    <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span>(660 Reviews)</span>
+<br>
+<span><b>Date:</b> 23 Feb 2023</span><br>
+<span><b>Duration:</b> 5 days</span><br>
+<span><b>From Rs:</b> 1,20,000  </span><br>
+
+
+                </div>
+               
+               
+            </td>
+            
+        </tr>
+    </table>
+    
+</div>
+</center>
+<br><br></div>
+<div class="services">
+    <br>
+    <center>
+   <h3 class="h1">Services Provided By Us</h3>
+
+</center>
+<center>
+    <table>
+        <tr>
+            <td>
+                <div class="col1" >
+                    <img src="./images/accomodation.jpg" width="300px" height="300px">
+                   <center> <h2>Accomodation</h2></center>
+                   <span style="font-size: 20px;"> We provide the best accomation rated by users.</span>
+                </div>
+            </td>
+            <td>
+                <div class="col1">
+                    <img src="./images/Flights.jpeg" width="300px" height="300px">
+                <center>    <h2>Travel</h2></center>
+                <span style="font-size: 20px;"> We provide the best travel service with lowest price.</span>
+               
+                </div>
+            </td>
+            <td>
+                <div class="col1">
+                    <img src="./images/guidance.jpg" width="300px" height="300px">
+                <center>     <h2>Guidance</h2></center>
+                <span style="font-size: 20px;"> We provide the best guidance and travel plans .</span>
+               
+
+                </div>
+            </td>
+            <td>
+                <div class="col1">
+                    <img src="./images/discover.jpeg" width="300px" height="300px">
+                  <center>  <h2>Discover The World</h2></center>
+                  <span style="font-size: 20px;"> We wish that user should discover and explore.</span>
+               
+                </div>
+            </td>
+        </tr>
+    </table>
+</center>
+<br>
+</div>
+
+<div class="testemonials">
+    <br>
+    <center>
+    <h1 class="h1">Testimonials</h1>
+    
+</center>
+
+<center>
+    <table>
+        <tr>
+            <td>
+                <div class="test">
+                    <span style="font-size:30px; font-family: 'Times New Roman', Times, serif;"><b>"Saurav Muke"</b></span>
+                    <br><span style="font-size: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta maiores, odit qui delectus ducimus itaque saepe alias. Iusto, tenetur vitae nulla nobis quam temporibus quia accusamus eaque ut repudiandae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusantium repellendus, blanditiis repudiandae deserunt, necessitatibus ipsam rem deleniti illum provident iure illo ratione porro! Ad officia incidunt aut facilis hic!
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div class="test">
+                    <span style="font-size:30px; font-family: 'Times New Roman', Times, serif;"><b>"Samruddhi Ahire"</b></span>
+                    <br><span style="font-size: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta maiores, odit qui delectus ducimus itaque saepe alias. Iusto, tenetur vitae nulla nobis quam temporibus quia accusamus eaque ut repudiandae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusantium repellendus, blanditiis repudiandae deserunt, necessitatibus ipsam rem deleniti illum provident iure illo ratione porro! Ad officia incidunt aut facilis hic!
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div class="test">
+                    <span style="font-size:30px; font-family: 'Times New Roman', Times, serif;"><b>"Rohit Sharma"</b></span>
+                    <br><span style="font-size: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta maiores, odit qui delectus ducimus itaque saepe alias. Iusto, tenetur vitae nulla nobis quam temporibus quia accusamus eaque ut repudiandae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusantium repellendus, blanditiis repudiandae deserunt, necessitatibus ipsam rem deleniti illum provident iure illo ratione porro! Ad officia incidunt aut facilis hic!
+                    </span>
+                </div>
+            </td>
+        </tr>
+    </table>
+<br>
+    <button class='navigation'><i class="fa fa-chevron-circle-left" style="font-size: 40px;" aria-hidden="true"></i>
+    </button >
+    <button class='navigation'><i class="fa fa-chevron-circle-right"  style="font-size: 40px;" aria-hidden="true"></i>
+    </button>
+    </center>
+    <br>
+    <br>
+
+
+</div>
+<footer>
+    <center>
+        Copyright By:  Saurav Muke
+    </center>
+</footer>
+</div>
+</body>
+</html>
