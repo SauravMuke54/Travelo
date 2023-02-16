@@ -22,14 +22,14 @@ ul{
     margin-left: 5px;
     
 }
-.nav-items{
+.nav-items-list{
   
     float: right;
 }
 
  .nav-item-elements:hover{
-    background-color: aliceblue;
-    color: black;
+    background-color: grey;
+    color: white;
 }
 
 .web_name{
@@ -72,7 +72,7 @@ ul{
     color: black;
 }
 
-.explore:hover{
+.explore :hover{
     margin-top: 120px;
     width: 300px;
     height: 50px;
@@ -141,7 +141,14 @@ body{
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
-}
+}<td>
+<div class="col1">
+    <img src="./images/discover.jpeg" width="300px" height="300px">
+  <center>  <h2>Discover The World</h2></center>
+  <span style="font-size: 20px;"> We wish that user should discover and explore.</span>
+
+</div>
+</td>
 
 .col{
 padding: 2px;
@@ -205,3 +212,56 @@ background-color: black;
 font-size: 20px;
 color: white;
   }
+
+  .about{
+    margin-top: 60px;
+    background-image: url('./images/blur.jpeg');
+    padding: 2px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+  }
+
+  .about1{
+    margin-top: 60px;
+    background-image: url('./images/blur.jpeg');
+    padding: 2px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+  }
+  .imgtext{
+padding: 2px;
+
+  }
+  .td1{
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+ 
+    border: 1px black solid;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a :hover{
+    background-color: white;
+    
+  }
+  .contacts{
+    margin-top: 60px;
+    padding: 10px;
+    background-image: url('./images/blur.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .td3{
+    font-size: 20px;
+    padding: 25px;
+  }
+  .cf{
+
+    padding: 10px;
+    border: 1px black double;
+    font-size: 28px;
+  }
+ 
